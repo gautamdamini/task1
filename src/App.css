@@ -1,0 +1,170 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.sidebar-item{
+  display: block;
+  background-color: background-color .15s;
+}
+
+ img{
+  display: inline-block;
+}
+ .toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+}
+.sidebar-item.open .sidebar-title .toggle-btn{
+  transform: rotate(180deg);
+}
+.sidebar-content{
+  padding-top:.25em;
+  padding-left: 2.8em;
+  height: 0;
+  overflow: hidden;
+}
+a{
+  text-decoration:none !important
+}
+.sidebar-item.open .sidebar-content{
+  height: auto;
+}
+span{
+  color: #356646;
+}
+.imgtext{
+  margin: 0px 1.3rem 0px 0px;
+}
+.bg-green{
+  padding: 6px;
+  background-color: #356646;
+  display: flex;
+  justify-content: end;
+}
+.bg-logo{
+  width: 100%;
+}
+.sidebar{
+  padding: 1em
+}
+ .text-header{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 28px;
+  line-height: 40px;
+  color: black;
+  text-transform: uppercase;
+}
+.projectcont p {
+  padding-bottom: 0px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+.btn{
+    text-transform: capitalize;
+    /* width: 140px; */
+    background-color: #356646 !important;
+    width: 162px;
+    height: 57px;
+}
+label{
+  text-transform: capitalize;
+  color: #6E6E6E !important;
+  font-size: 0.9rem;
+}
+
+.textw{
+  height: 58px;
+}
+select {
+  color: #000000;
+}
+
+input#exampleFormControlInput1 {
+  color: #000000 !important; 
+}
+input[type="placeholder"] {
+
+  color: #000000 !important; 
+}
+.placeholder{
+  color: #000000 !important; 
+}
+.form-control1{
+  text-transform: capitalize;
+  background-color: #356646;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn1 {
+  text-transform: capitalize;
+  width: 65% !important;
+  height: 40px !important;
+  background-color: #356646 !important;
+}
+.btn2{
+  text-transform: capitalize;
+  width: 30% !important;
+  height: 40px !important;
+  background-color: #FCC300 !important;
+  border: none !important;
+}
+.subtext{
+  margin-bottom: 20px;
+  background-color: #356646 !important;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.projectcont1 h2{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.projectcont1 p {
+  margin-bottom: 0rem;
+  padding-bottom: 0px;
+  font-size: 0.9rem;
+  line-height: 17px;
+  text-align: justify;
+  font-weight: bold;
+  color: #d0caca
+}
+.bglogo{
+  padding: 17px;
+  height: 100px;
+  width: 255px;
+  background-color: #356646
+}
+.bt{
+  float: inline-end;
+}
+.proflie{
+  padding: 11px;
+}
+.d-flex1 {
+  justify-content: end;
+  display: flex!important;
+}
+.bgreen{
+  background-color: #356646;
+  padding: 10px;
+}
+
+.active {
+  background-color: green; /* Style for active element */
+}
+
+.inactive {
+  background-color: red; /* Style for inactive element */
+}
